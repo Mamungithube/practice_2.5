@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 20%;
+    padding-top: 15px;
+
+}
+.image1 {
+    left: auto;
+}
+
+.remove {
+    list-style: none;
+}
+
+.remove:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.manu-containar {
+    display: flex;
+    gap: 20%;
+    color: rgb(223, 188, 13);
+}
+
+.boss {
+    display: flex;
+    justify-content: center;
+}
+
+.massage {
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 2%;
+    text-align: left;
+    color: rgb(233, 238, 240);
+}
+
+.btn {
+    height: 10%;
+    width: 15%;
+    border-radius: 15%;
+    background-color: rgb(255, 166, 0);
+}
+
+.header-conteiner {
+    background-image: url(image/pexels-tima-miroshnichenko-5380582.jpg);
+    background-size: 100%;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    gap: 5%;
+    padding-top: 2%;
+    background-color: aliceblue;
+}
+.service{
+    text-align: center;
+}
+.text1{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.boxs-up{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    text-align: center;
+    height: 25%;
+}
+.box1{
+    width: 25%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.box2{
+    width: 25%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.box3{
+    width: 25%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.boxs-down{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    padding-top: 40px;
+    text-align: center;
+    height: 25%;
+}
+.box4{
+    width: 25%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.box5{
+    width: 25%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.box6{
+    width: 25%;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+.contect{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+
+}
+.btn2{
+    background-color: rgb(97, 129, 180);
+}
+
+.footer{
+    color: white;
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding: 2%;
+}
+.email{
+    width: 200px;
+    height: 50px;
+    background-color: aliceblue;
+}
+.boxs-footer{
+    width: 400px;
+}
